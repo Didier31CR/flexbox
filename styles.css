@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  height: 200px;
+  background-color: beige;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.caja {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.verde {
+  background-color: lime;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+
+.ai-start {
+  align-items: start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.as {
+  align-self: end;
+}
+
+.centro {
+  justify-content: center;
+  align-items: center;
+}
